@@ -7,7 +7,7 @@ import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
 
 @Path("/ticketinfo")
-public class TicketInfo {
+public class PathParameterApproach {
 
 	@Path("/insertpath/{ticket_type}/{date_}/{time_}/{name}/{location}/{price}")//{parametertype}
 	@GET
